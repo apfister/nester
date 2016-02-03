@@ -246,9 +246,9 @@ api.addClassesToCard = function(card, offset, nestingWidth){
     }else{
       width = Math.floor(width);
     }
-    console.log('**** NESTING WIDTH ' + nestingWidth + ' card width: ' + card.width + ' class: col-sm-' + width);
+    console.log('**** NESTING WIDTH ' + nestingWidth + ' card width: ' + card.width + ' class: col-md-' + width);
   }
-  card.classNames = 'card-debug col-sm-' + width;
+  card.classNames = 'card-debug col-md-' + width;
   card.minHeight = card.height * 60;
   if(offset){
     card.classNames = card.classNames + ' col-sm-offset-' + offset;
